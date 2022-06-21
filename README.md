@@ -9,12 +9,6 @@ pip install pycocotools
 pytorch==1.11.0  
 torchvision==0.12.0  
 
-*Maintainer: Osman Semih Kayhan (o.s.kayhan@tudelft.nl)*
-
-We present the "3rd Visual Inductive Priors for Data-Efficient Computer Vision" challenge. We offer four challenges, where models are to be trained from scratch. The winners of each challenge are invited to present their winning method at the VIPriors workshop presentation at ECCV 2022.
-
-This challenge is the object detection challenge. We provide [DelftBikes](https://github.com/oskyhn/DelftBikes) dataset to train on. We will evaluate all models submitted to the challenge test data.
-
 ## Datasets
 
 The task to be performed is object detection, predicting bounding boxes. [DelftBikes](https://github.com/oskyhn/DelftBikes) contains 10,000 bike images with 22 densely annotated parts for each bike. Besides, we explicitly annotate all part locations and part states as missing, intact, damaged, or occluded. To note that, the dataset contains some noisy labels too, thefore it is more challenging. The evaluation is done on avaliable part, namely intact, damaged and occluded parts. For more information about dataset, you can check the [paper](https://arxiv.org/abs/2106.02523).
