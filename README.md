@@ -1,5 +1,13 @@
 # VIPriors Object Detection challenge
 
+## Environment
+apt update
+apt install build-essential
+pip install pycocotools
+
+pytorch==1.11.0
+torchvision==0.12.0
+
 *Maintainer: Osman Semih Kayhan (o.s.kayhan@tudelft.nl)*
 
 We present the "3rd Visual Inductive Priors for Data-Efficient Computer Vision" challenge. We offer four challenges, where models are to be trained from scratch. The winners of each challenge are invited to present their winning method at the VIPriors workshop presentation at ECCV 2022.
