@@ -1,12 +1,13 @@
 # VIPriors Object Detection challenge
 
 ## Environment
-apt update
-apt install build-essential
-pip install pycocotools
+apt update  
+apt install build-essential  
+pip install pycocotools  
 
-pytorch==1.11.0
-torchvision==0.12.0
+  
+pytorch==1.11.0  
+torchvision==0.12.0  
 
 *Maintainer: Osman Semih Kayhan (o.s.kayhan@tudelft.nl)*
 
